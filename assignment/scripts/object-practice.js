@@ -8,8 +8,16 @@ console.log('***** Object Practice *****')
   - Give it  a numeric 'shoeCount' property
   - Also give it an array 'favThreeFoods'
 */
-const me = {
-  // TODO - add properties here
+let me = {
+  firstName:'Nasra',
+  lastName: 'Omar',
+  hasSiblings: true,
+  shoeCount: 30, 
+  favThreeFoods: ['pizza', 'oysters', 'steak'] 
+  /// I'm not sure why it's not letting me add a new property???
+  favoriteColor: pink,
+
+  
 };
 console.log('A little about me:', me);
 
@@ -19,13 +27,17 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-
-
-
+var fullName = ('firstName' + 'lastName')
+console.log(fullName);
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
+const favThreeFoods =['pizza', 'oysters', 'steak'];
+const first = favThreeFoods[0];
+const last = favThreeFoods[2];
+console.log(first);
+console.log(last);
 
 
 
@@ -35,6 +47,9 @@ console.log('A little about me:', me);
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
+let shoeCount = 30
+console.log(shoeCount);
+console.log(shoeCount + 1);
 
 
 /* 5. Add a new property to an existing object.
@@ -43,3 +58,5 @@ console.log('A little about me:', me);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+let favoriteColor = ('pink');
+console.log(favoriteColor);
